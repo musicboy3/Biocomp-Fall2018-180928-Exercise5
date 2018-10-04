@@ -1,3 +1,5 @@
+#Code used to create this list
+#cat $1 | cut -d ',' -f 1,2 | sort -t"," -k1,1 -k2n,2
 female,1
 female,1
 female,2
